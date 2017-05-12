@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFAE3; /*crema*/
+    padding: 30px;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav .link{
+    justify-content: flex-start;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #5D576B; /*morado*/
+}

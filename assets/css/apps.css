@@ -1,0 +1,19 @@
+#contenedorApps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    background-image: url(../img/lavalweb.png);
+    background-size: cover;
+}
+
+#contenedorApps .encabezado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F7567C;
+  font-size: 80px;
+  font-stretch: ultra-expanded;
+  font-weight: bolder;
+}
