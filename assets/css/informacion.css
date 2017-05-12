@@ -1,0 +1,37 @@
+#contenedorGames {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#contenedorGames .informacionHappy{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+#contenedorGames .imagen {
+    justify-content: flex-start;
+    width: 330px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#contenedorGames .texto {
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#contenedorGames .informacionWow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
